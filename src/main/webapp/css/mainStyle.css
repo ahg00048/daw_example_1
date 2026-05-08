@@ -1,0 +1,26 @@
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+#header {
+    background-color: #121219;
+}
+
+#footer {
+    background-color: #ba8202;
+}
+
+#main  {
+    background-color: #f4d096;
+}

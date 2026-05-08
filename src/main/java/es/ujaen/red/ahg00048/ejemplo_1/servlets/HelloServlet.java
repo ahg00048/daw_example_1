@@ -1,24 +1,20 @@
-package es.ujaen.red.ahg00048.ejemplo_1;
+package es.ujaen.red.ahg00048.ejemplo_1.servlets;
 
 import java.io.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
+@WebServlet(name = "Example_1", value = "/Example_1")
 public class HelloServlet extends HttpServlet {
-    private String message;
 
-    public void init() {
-        message = "Hello World!";
-    }
+    public void init() { }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
 
-        // Hello
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
+        out.println("<h1>no</h1>");
         out.println("</body></html>");
     }
 

@@ -1,4 +1,4 @@
-.contextMenu {
+#contextMenu {
     visibility: hidden;
     background-color: #181818;
     color: white;
@@ -11,7 +11,7 @@
     box-shadow: 2px 2px 2px gray;
 }
 
-.contextMenu > ul {
+#contextMenu > ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -22,11 +22,11 @@
     justify-content: stretch;
 }
 
-.contextMenu > ul > li:last-child {
+#contextMenu > ul > li:last-child {
     border-bottom: none;
 }
 
-.contextMenu li {
+#contextMenu li {
     min-width: fit-content;
     padding: 16px;
 
@@ -38,7 +38,7 @@
     border-bottom: 1px solid gray;
 }
 
-.contextMenu input[type="color"] {
+#contextMenu input[type="color"] {
     background-color: white;
     border: 1px black;
     border-radius: 2px;
@@ -47,6 +47,6 @@
     cursor: pointer;
 }
 
-.contextMenu input[type="color"]:hover {
-    background-color: violet;
+#contextMenu input[type="color"]:hover {
+    background-color: yellow;
 }

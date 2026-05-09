@@ -3,23 +3,19 @@
 <html>
 <head>
   <title>ahg00048 - DAW - Example 1</title>
-  <link rel="stylesheet" href="css/mainStyle.css">
-  <link rel="stylesheet" href="css/contextMenu.css">
+  <link rel="stylesheet" href="resources/css/mainStyle.css">
+  <link rel="stylesheet" href="resources/css/contextMenu.css">
 </head>
 <body>
-<div class="contextMenu">
+<div id="contextMenu">
   <ul>
     <li>
       <label for="current_color_header">header color</label>
       <input type="color" id="current_color_header">
     </li>
     <li>
-      <label for="current_color_section">section color</label>
-      <input type="color" id="current_color_section">
-    </li>
-    <li>
-      <label for="current_color_aside">aside color</label>
-      <input type="color" id="current_color_aside">
+      <label for="current_color_main">main color</label>
+      <input type="color" id="current_color_main">
     </li>
     <li>
       <label for="current_color_footer">footer color</label>
@@ -31,7 +27,6 @@
 <header id="header">
 </header>
 
-Cancer
 <main id="main">
 </main>
 
@@ -39,5 +34,5 @@ Cancer
 </footer>
 
 </body>
-<script src="js/contextMenu.js"></script>
+<script src="resources/js/contextMenu.js"></script>
 </html>
